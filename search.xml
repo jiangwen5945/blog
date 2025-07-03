@@ -80,6 +80,61 @@
       </tags>
   </entry>
   <entry>
+    <title>CSS中可继承的属性</title>
+    <url>/blog/2020/02/28/CSS/CSS%E4%B8%AD%E5%8F%AF%E7%BB%A7%E6%89%BF%E7%9A%84%E5%B1%9E%E6%80%A7/</url>
+    <content><![CDATA[<p>css样式表继承指的是，特定的css属性向下传递到后代元素，那么css哪些属性可以继承呢？</p>
+<p><strong>1、字体系列属性</strong></p>
+<ul>
+<li>font：组合字体</li>
+<li>font-family：规定元素的字体系列</li>
+<li>font-weight：设置字体的粗细</li>
+<li>font-size：设置字体的尺寸</li>
+<li>font-style：定义字体的风格</li>
+<li>font-variant：设置小型大写字母的字体显示文本，这意味着所有的小写字母均会被转换为</li>
+<li>大写，但是所有使用小型大写字体的字母与其余文本相比，其字体尺寸更小。</li>
+<li>font-stretch：允许你使文字变宽或变窄。所有主流浏览器都不支持。</li>
+<li>font-size-adjust：为某个元素规定一个 aspect 值，字体的小写字母 “x” 的高度与</li>
+<li>“font-size” 高度之间的比率被称为一个字体的 aspect 值。这</li>
+<li>样就可以保持首选字体的 x-height。</li>
+</ul>
+<p><strong>2、文本系列属性</strong></p>
+<ul>
+<li>text-indent：文本缩进</li>
+<li>text-align：文本水平对齐</li>
+<li>line-height：行高</li>
+<li>word-spacing：增加或减少单词间的空白（即字间隔）</li>
+<li>letter-spacing：增加或减少字符间的空白（字符间距）</li>
+<li>text-transform：控制文本大小写</li>
+<li>direction：规定文本的书写方向</li>
+<li>color：文本颜色</li>
+</ul>
+<p><strong>3、元素可见性：visibility</strong></p>
+<p><strong>4、表格布局属性：</strong></p>
+<p>caption-side、border-collapse、border-spacing、empty-cells、table-layout</p>
+<p><strong>5、列表属性：</strong>list-style-type、list-style-image、list-style-position、list-style</p>
+<p><strong>6、生成内容属性：</strong>quotes</p>
+<p><strong>7、光标属性：</strong>cursor</p>
+<p><strong>8、页面样式属性：</strong>page、page-break-inside、windows、orphans</p>
+<p><strong>9、声音样式属性：</strong></p>
+<p>speak、speak-punctuation、speak-numeral、speak-header、speech-rate、volume、voice-family、pitch、pitch-range、stress、richness、、azimuth、elevation</p>
+<hr>
+<p><strong>所有元素可以继承的属性：</strong></p>
+<p>1、元素可见性：visibility、opacity</p>
+<p>2、光标属性：cursor</p>
+<p><strong>内联元素可以继承的属性:</strong></p>
+<p>1、字体系列属性</p>
+<p>2、除text-indent、text-align之外的文本系列属性</p>
+<p><strong>块级元素可以继承的属性:</strong></p>
+<p>1、text-indent、text-align</p>
+]]></content>
+      <categories>
+        <category>CSS</category>
+      </categories>
+      <tags>
+        <tag>css属性继承</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CSS 常用效果</title>
     <url>/blog/2020/02/28/CSS/CSS%20%E5%B8%B8%E7%94%A8%E6%95%88%E6%9E%9C/</url>
     <content><![CDATA[<ul>
@@ -158,61 +213,6 @@
       </categories>
       <tags>
         <tag>css</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CSS中可继承的属性</title>
-    <url>/blog/2020/02/28/CSS/CSS%E4%B8%AD%E5%8F%AF%E7%BB%A7%E6%89%BF%E7%9A%84%E5%B1%9E%E6%80%A7/</url>
-    <content><![CDATA[<p>css样式表继承指的是，特定的css属性向下传递到后代元素，那么css哪些属性可以继承呢？</p>
-<p><strong>1、字体系列属性</strong></p>
-<ul>
-<li>font：组合字体</li>
-<li>font-family：规定元素的字体系列</li>
-<li>font-weight：设置字体的粗细</li>
-<li>font-size：设置字体的尺寸</li>
-<li>font-style：定义字体的风格</li>
-<li>font-variant：设置小型大写字母的字体显示文本，这意味着所有的小写字母均会被转换为</li>
-<li>大写，但是所有使用小型大写字体的字母与其余文本相比，其字体尺寸更小。</li>
-<li>font-stretch：允许你使文字变宽或变窄。所有主流浏览器都不支持。</li>
-<li>font-size-adjust：为某个元素规定一个 aspect 值，字体的小写字母 “x” 的高度与</li>
-<li>“font-size” 高度之间的比率被称为一个字体的 aspect 值。这</li>
-<li>样就可以保持首选字体的 x-height。</li>
-</ul>
-<p><strong>2、文本系列属性</strong></p>
-<ul>
-<li>text-indent：文本缩进</li>
-<li>text-align：文本水平对齐</li>
-<li>line-height：行高</li>
-<li>word-spacing：增加或减少单词间的空白（即字间隔）</li>
-<li>letter-spacing：增加或减少字符间的空白（字符间距）</li>
-<li>text-transform：控制文本大小写</li>
-<li>direction：规定文本的书写方向</li>
-<li>color：文本颜色</li>
-</ul>
-<p><strong>3、元素可见性：visibility</strong></p>
-<p><strong>4、表格布局属性：</strong></p>
-<p>caption-side、border-collapse、border-spacing、empty-cells、table-layout</p>
-<p><strong>5、列表属性：</strong>list-style-type、list-style-image、list-style-position、list-style</p>
-<p><strong>6、生成内容属性：</strong>quotes</p>
-<p><strong>7、光标属性：</strong>cursor</p>
-<p><strong>8、页面样式属性：</strong>page、page-break-inside、windows、orphans</p>
-<p><strong>9、声音样式属性：</strong></p>
-<p>speak、speak-punctuation、speak-numeral、speak-header、speech-rate、volume、voice-family、pitch、pitch-range、stress、richness、、azimuth、elevation</p>
-<hr>
-<p><strong>所有元素可以继承的属性：</strong></p>
-<p>1、元素可见性：visibility、opacity</p>
-<p>2、光标属性：cursor</p>
-<p><strong>内联元素可以继承的属性:</strong></p>
-<p>1、字体系列属性</p>
-<p>2、除text-indent、text-align之外的文本系列属性</p>
-<p><strong>块级元素可以继承的属性:</strong></p>
-<p>1、text-indent、text-align</p>
-]]></content>
-      <categories>
-        <category>CSS</category>
-      </categories>
-      <tags>
-        <tag>css属性继承</tag>
       </tags>
   </entry>
   <entry>
@@ -602,58 +602,6 @@ BFC清除浮动</p>
       </tags>
   </entry>
   <entry>
-    <title>EvenLoop队列中的执行顺序</title>
-    <url>/blog/2023/03/28/Javascript/EvenLoop%E9%98%9F%E5%88%97%E4%B8%AD%E7%9A%84%E6%89%A7%E8%A1%8C%E9%A1%BA%E5%BA%8F/</url>
-    <content><![CDATA[<blockquote>
-<p>前言：谈谈<code>promise.resove</code>,<code>setTimeout</code>,<code>setImmediate</code>,<code>process.nextTick</code>在EvenLoop队列中的执行顺序</p>
-</blockquote>
-<h2 id="1-问题的引出"><a href="#1-问题的引出" class="headerlink" title="1. 问题的引出"></a>1. 问题的引出</h2><p>event loop都不陌生，是指主线程从“任务队列”中循环读取任务，比如</p>
-<div class="code-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="built_in">setTimeout</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">1</span>)&#125;,<span class="number">0</span>);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">2</span>)</span><br><span class="line"><span class="comment">//输出2,1</span></span><br></pre></td></tr></table></figure></div>
-
-<p>在上述的例子中，我们明白首先执行主线程中的同步任务，当主线程任务执行完毕后，再从event loop中读取任务，因此先输出2，再输出1。</p>
-<p>event loop读取任务的先后顺序，取决于任务队列（Job queue）中对于不同任务读取规则的限定。比如下面一个例子：</p>
-<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">setTimeout</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">3</span>);</span><br><span class="line">&#125;, <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line"><span class="title class_">Promise</span>.<span class="title function_">resolve</span>().<span class="title function_">then</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">2</span>);</span><br><span class="line">&#125;);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">1</span>);</span><br><span class="line"><span class="comment">//输出为  1  2 3</span></span><br></pre></td></tr></table></figure></div>
-
-<p>先输出1，没有问题，因为是同步任务在主线程中优先执行，这里的问题是setTimeout和Promise.then任务的执行优先级是如何定义的。</p>
-<h2 id="2-Job-queue中的执行顺序"><a href="#2-Job-queue中的执行顺序" class="headerlink" title="2 . Job queue中的执行顺序"></a>2 . Job queue中的执行顺序</h2><p>在Job queue中的队列分为两种类型：微任务(macro-task)和宏任务(micro-task)。我们举例来看执行顺序的规定，我们设</p>
-<p>macro-task队列包含任务: <em><strong>a1, a2 , a3</strong></em><br>micro-task队列包含任务: <em><strong>b1, b2 , b3</strong></em></p>
-<p>执行顺序为，首先执行marco-task队列开头的任务，也就是 <em><strong>a1</strong></em> 任务，执行完毕后，在执行micro-task队列里的所有任务，也就是依次执行<em><strong>b1, b2 , b3</strong></em>，执行完后清空micro-task中的任务，接着执行marco-task中的第二个任务，依次循环。</p>
-<p>了解完了macro-task和micro-task两种队列的执行顺序之后，我们接着来看，真实场景下这两种类型的队列里真正包含的任务（我们以node V8引擎为例），在node V8中，这两种类型的真实任务顺序如下所示：</p>
-<p>macro-task队列真实包含任务：</p>
-<p><strong>script(主程序代码),setTimeout, setInterval, setImmediate, I&#x2F;O, UI rendering</strong></p>
-<p>micro-task队列真实包含任务：<br><em><strong>process.nextTick, Promises, Object.observe, MutationObserver</strong></em></p>
-<p>由此我们得到的执行顺序应该为：</p>
-<p><em><strong>script(主程序代码)—&gt;process.nextTick—&gt;Promises…——&gt;setTimeout——&gt;setInterval——&gt;setImmediate——&gt; I&#x2F;O——&gt;UI rendering</strong></em></p>
-<p>在ES6中macro-task队列又称为ScriptJobs，而micro-task又称PromiseJobs</p>
-<h2 id="3-真实环境中执行顺序的举例"><a href="#3-真实环境中执行顺序的举例" class="headerlink" title="3 . 真实环境中执行顺序的举例"></a>3 . 真实环境中执行顺序的举例</h2><h3 id="1-setTimeout和promise"><a href="#1-setTimeout和promise" class="headerlink" title="(1) setTimeout和promise"></a>(1) setTimeout和promise</h3><div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">setTimeout</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">3</span>);</span><br><span class="line">&#125;, <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line"><span class="title class_">Promise</span>.<span class="title function_">resolve</span>().<span class="title function_">then</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">2</span>);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">1</span>);</span><br></pre></td></tr></table></figure></div>
-
-<p>我们先以第1小节的例子为例，这里遵循的顺序为：</p>
-<p><em><strong>script(主程序代码)——&gt;promise——&gt;setTimeout</strong></em><br>对应的输出依次为：1 ——&gt;2——&gt;3</p>
-<h3 id="2-process-nextTick和promise、setTimeout"><a href="#2-process-nextTick和promise、setTimeout" class="headerlink" title="(2) process.nextTick和promise、setTimeout"></a>(2) process.nextTick和promise、setTimeout</h3><div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">setTimeout</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">1</span>)&#125;,<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="keyword">function</span>(<span class="params">resolve,reject</span>)&#123;</span><br><span class="line">   <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">2</span>);</span><br><span class="line">   <span class="title function_">resolve</span>();</span><br><span class="line">&#125;).<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">3</span>)</span><br><span class="line">&#125;).<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">4</span>)&#125;);</span><br><span class="line"></span><br><span class="line">process.<span class="title function_">nextTick</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">5</span>)&#125;);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">6</span>);</span><br><span class="line"><span class="comment">//输出2,6,5,3,4,1</span></span><br></pre></td></tr></table></figure></div>
-
-<p>这个例子就比较复杂了，这里要注意的一点在定义promise的时候，promise构造部分是同步执行的，这样问题就迎刃而解了。</p>
-<p>首先分析Job queue的执行顺序：</p>
-<p><em><strong>script(主程序代码)——&gt;process.nextTick——&gt;promise——&gt;setTimeout</strong></em></p>
-<p>I) <em><strong>主体部分</strong></em>： 定义promise的构造部分是同步的，<br>因此先输出2 ，主体部分再输出6（同步情况下，就是严格按照定义的先后顺序）</p>
-<p>II)<em><strong>process.nextTick</strong></em>: 输出5</p>
-<p>III）<em><strong>promise</strong></em>： 这里的promise部分，严格的说其实是promise.then部分，输出的是3,4</p>
-<p>IV) <em><strong>setTimeout</strong></em> ： 最后输出1</p>
-<p>综合的执行顺序就是： 2——&gt;6——&gt;5——&gt;3——&gt;4——&gt;1</p>
-<h3 id="3-更复杂的例子"><a href="#3-更复杂的例子" class="headerlink" title="(3)更复杂的例子"></a>(3)更复杂的例子</h3><div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">setTimeout</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">1</span>)&#125;,<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="keyword">function</span>(<span class="params">resolve,reject</span>)&#123;</span><br><span class="line">   <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">2</span>);</span><br><span class="line">   <span class="built_in">setTimeout</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="title function_">resolve</span>()&#125;,<span class="number">0</span>)</span><br><span class="line">&#125;).<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">3</span>)</span><br><span class="line">&#125;).<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">4</span>)&#125;);</span><br><span class="line"></span><br><span class="line">process.<span class="title function_">nextTick</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">5</span>)&#125;);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">6</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//输出的是  2 6 5 1 3 4</span></span><br></pre></td></tr></table></figure></div>
-
-<p>这种情况跟我们（2）中的例子，区别在于promise的构造中，没有同步的resolve，因此promise.then在当前的执行队列中是不存在的，只有promise从pending转移到resolve，才会有then方法，而这个resolve是在一个setTimout时间中完成的，因此3,4最后输出。</p>
-<blockquote>
-<p>文章转载来源：: <a class="link"   href="https://github.com/forthealllight/blog/issues/5" >https://github.com/forthealllight/blog/issues/5<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Javascript</category>
-      </categories>
-      <tags>
-        <tag>EvenLoop</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HTML5一览</title>
     <url>/blog/2020/01/01/HTML/HTML5%E4%B8%80%E8%A7%88/</url>
     <content><![CDATA[<h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h2><ul>
@@ -815,6 +763,58 @@ input和textarea的区别</p>
       </categories>
       <tags>
         <tag>h5</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>EvenLoop队列中的执行顺序</title>
+    <url>/blog/2023/03/28/Javascript/EvenLoop%E9%98%9F%E5%88%97%E4%B8%AD%E7%9A%84%E6%89%A7%E8%A1%8C%E9%A1%BA%E5%BA%8F/</url>
+    <content><![CDATA[<blockquote>
+<p>前言：谈谈<code>promise.resove</code>,<code>setTimeout</code>,<code>setImmediate</code>,<code>process.nextTick</code>在EvenLoop队列中的执行顺序</p>
+</blockquote>
+<h2 id="1-问题的引出"><a href="#1-问题的引出" class="headerlink" title="1. 问题的引出"></a>1. 问题的引出</h2><p>event loop都不陌生，是指主线程从“任务队列”中循环读取任务，比如</p>
+<div class="code-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="built_in">setTimeout</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">1</span>)&#125;,<span class="number">0</span>);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">2</span>)</span><br><span class="line"><span class="comment">//输出2,1</span></span><br></pre></td></tr></table></figure></div>
+
+<p>在上述的例子中，我们明白首先执行主线程中的同步任务，当主线程任务执行完毕后，再从event loop中读取任务，因此先输出2，再输出1。</p>
+<p>event loop读取任务的先后顺序，取决于任务队列（Job queue）中对于不同任务读取规则的限定。比如下面一个例子：</p>
+<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">setTimeout</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">3</span>);</span><br><span class="line">&#125;, <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line"><span class="title class_">Promise</span>.<span class="title function_">resolve</span>().<span class="title function_">then</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">2</span>);</span><br><span class="line">&#125;);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">1</span>);</span><br><span class="line"><span class="comment">//输出为  1  2 3</span></span><br></pre></td></tr></table></figure></div>
+
+<p>先输出1，没有问题，因为是同步任务在主线程中优先执行，这里的问题是setTimeout和Promise.then任务的执行优先级是如何定义的。</p>
+<h2 id="2-Job-queue中的执行顺序"><a href="#2-Job-queue中的执行顺序" class="headerlink" title="2 . Job queue中的执行顺序"></a>2 . Job queue中的执行顺序</h2><p>在Job queue中的队列分为两种类型：微任务(macro-task)和宏任务(micro-task)。我们举例来看执行顺序的规定，我们设</p>
+<p>macro-task队列包含任务: <em><strong>a1, a2 , a3</strong></em><br>micro-task队列包含任务: <em><strong>b1, b2 , b3</strong></em></p>
+<p>执行顺序为，首先执行marco-task队列开头的任务，也就是 <em><strong>a1</strong></em> 任务，执行完毕后，在执行micro-task队列里的所有任务，也就是依次执行<em><strong>b1, b2 , b3</strong></em>，执行完后清空micro-task中的任务，接着执行marco-task中的第二个任务，依次循环。</p>
+<p>了解完了macro-task和micro-task两种队列的执行顺序之后，我们接着来看，真实场景下这两种类型的队列里真正包含的任务（我们以node V8引擎为例），在node V8中，这两种类型的真实任务顺序如下所示：</p>
+<p>macro-task队列真实包含任务：</p>
+<p><strong>script(主程序代码),setTimeout, setInterval, setImmediate, I&#x2F;O, UI rendering</strong></p>
+<p>micro-task队列真实包含任务：<br><em><strong>process.nextTick, Promises, Object.observe, MutationObserver</strong></em></p>
+<p>由此我们得到的执行顺序应该为：</p>
+<p><em><strong>script(主程序代码)—&gt;process.nextTick—&gt;Promises…——&gt;setTimeout——&gt;setInterval——&gt;setImmediate——&gt; I&#x2F;O——&gt;UI rendering</strong></em></p>
+<p>在ES6中macro-task队列又称为ScriptJobs，而micro-task又称PromiseJobs</p>
+<h2 id="3-真实环境中执行顺序的举例"><a href="#3-真实环境中执行顺序的举例" class="headerlink" title="3 . 真实环境中执行顺序的举例"></a>3 . 真实环境中执行顺序的举例</h2><h3 id="1-setTimeout和promise"><a href="#1-setTimeout和promise" class="headerlink" title="(1) setTimeout和promise"></a>(1) setTimeout和promise</h3><div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">setTimeout</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">3</span>);</span><br><span class="line">&#125;, <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line"><span class="title class_">Promise</span>.<span class="title function_">resolve</span>().<span class="title function_">then</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">2</span>);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">1</span>);</span><br></pre></td></tr></table></figure></div>
+
+<p>我们先以第1小节的例子为例，这里遵循的顺序为：</p>
+<p><em><strong>script(主程序代码)——&gt;promise——&gt;setTimeout</strong></em><br>对应的输出依次为：1 ——&gt;2——&gt;3</p>
+<h3 id="2-process-nextTick和promise、setTimeout"><a href="#2-process-nextTick和promise、setTimeout" class="headerlink" title="(2) process.nextTick和promise、setTimeout"></a>(2) process.nextTick和promise、setTimeout</h3><div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">setTimeout</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">1</span>)&#125;,<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="keyword">function</span>(<span class="params">resolve,reject</span>)&#123;</span><br><span class="line">   <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">2</span>);</span><br><span class="line">   <span class="title function_">resolve</span>();</span><br><span class="line">&#125;).<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">3</span>)</span><br><span class="line">&#125;).<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">4</span>)&#125;);</span><br><span class="line"></span><br><span class="line">process.<span class="title function_">nextTick</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">5</span>)&#125;);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">6</span>);</span><br><span class="line"><span class="comment">//输出2,6,5,3,4,1</span></span><br></pre></td></tr></table></figure></div>
+
+<p>这个例子就比较复杂了，这里要注意的一点在定义promise的时候，promise构造部分是同步执行的，这样问题就迎刃而解了。</p>
+<p>首先分析Job queue的执行顺序：</p>
+<p><em><strong>script(主程序代码)——&gt;process.nextTick——&gt;promise——&gt;setTimeout</strong></em></p>
+<p>I) <em><strong>主体部分</strong></em>： 定义promise的构造部分是同步的，<br>因此先输出2 ，主体部分再输出6（同步情况下，就是严格按照定义的先后顺序）</p>
+<p>II)<em><strong>process.nextTick</strong></em>: 输出5</p>
+<p>III）<em><strong>promise</strong></em>： 这里的promise部分，严格的说其实是promise.then部分，输出的是3,4</p>
+<p>IV) <em><strong>setTimeout</strong></em> ： 最后输出1</p>
+<p>综合的执行顺序就是： 2——&gt;6——&gt;5——&gt;3——&gt;4——&gt;1</p>
+<h3 id="3-更复杂的例子"><a href="#3-更复杂的例子" class="headerlink" title="(3)更复杂的例子"></a>(3)更复杂的例子</h3><div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">setTimeout</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">1</span>)&#125;,<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="keyword">function</span>(<span class="params">resolve,reject</span>)&#123;</span><br><span class="line">   <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">2</span>);</span><br><span class="line">   <span class="built_in">setTimeout</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="title function_">resolve</span>()&#125;,<span class="number">0</span>)</span><br><span class="line">&#125;).<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">3</span>)</span><br><span class="line">&#125;).<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">4</span>)&#125;);</span><br><span class="line"></span><br><span class="line">process.<span class="title function_">nextTick</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">5</span>)&#125;);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">6</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//输出的是  2 6 5 1 3 4</span></span><br></pre></td></tr></table></figure></div>
+
+<p>这种情况跟我们（2）中的例子，区别在于promise的构造中，没有同步的resolve，因此promise.then在当前的执行队列中是不存在的，只有promise从pending转移到resolve，才会有then方法，而这个resolve是在一个setTimout时间中完成的，因此3,4最后输出。</p>
+<blockquote>
+<p>文章转载来源：: <a class="link"   href="https://github.com/forthealllight/blog/issues/5" >https://github.com/forthealllight/blog/issues/5<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Javascript</category>
+      </categories>
+      <tags>
+        <tag>EvenLoop</tag>
       </tags>
   </entry>
   <entry>
@@ -1315,6 +1315,18 @@ input和textarea的区别</p>
       </tags>
   </entry>
   <entry>
+    <title>常用正则</title>
+    <url>/blog/2023/03/12/Javascript/%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99/</url>
+    <content><![CDATA[<div class="code-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 匹配邮箱</span></span><br><span class="line"><span class="keyword">let</span> reg = /^([a-zA-Z]|[<span class="number">0</span>-<span class="number">9</span>])(\w|\-)+@[a-zA-<span class="variable constant_">Z0</span>-<span class="number">9</span>]+\.([a-zA-Z]&#123;<span class="number">2</span>,<span class="number">4</span>&#125;)$</span><br><span class="line"></span><br><span class="line"><span class="comment">// (新)匹配手机号</span></span><br><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/^1[0-9]&#123;10&#125;$/</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// (旧)匹配手机号</span></span><br><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/^1(3|4|5|7|8)[0-9]&#123;9&#125;$/</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 匹配8-16位数字和字母密码的正则表达式</span></span><br><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]&#123;8,16&#125;$/</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 匹配国内电话号码 0510-4305211</span></span><br><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/\d&#123;3&#125;-\d&#123;8&#125;|\d&#123;4&#125;-\d&#123;7&#125;/</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 匹配身份证号码</span></span><br><span class="line"><span class="keyword">let</span> reg=<span class="regexp">/(^\d&#123;15&#125;$)|(^\d&#123;18&#125;$)|(^\d&#123;17&#125;(\d|X|x)$)/</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 匹配腾讯QQ号</span></span><br><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/[1-9][0-9]&#123;4,&#125;/</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 匹配ip地址</span></span><br><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/\d+\.\d+\.\d+\.\d+/</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 匹配中文</span></span><br><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/^[\u4e00-\u9fa5]*$/</span>;</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>Javascript</category>
+      </categories>
+      <tags>
+        <tag>正则表达式</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>模块化开发</title>
     <url>/blog/2020/02/28/Javascript/%E6%A8%A1%E5%9D%97%E5%8C%96%E5%BC%80%E5%8F%91/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
@@ -1435,18 +1447,6 @@ input和textarea的区别</p>
       </tags>
   </entry>
   <entry>
-    <title>常用正则</title>
-    <url>/blog/2023/03/12/Javascript/%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99/</url>
-    <content><![CDATA[<div class="code-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 匹配邮箱</span></span><br><span class="line"><span class="keyword">let</span> reg = /^([a-zA-Z]|[<span class="number">0</span>-<span class="number">9</span>])(\w|\-)+@[a-zA-<span class="variable constant_">Z0</span>-<span class="number">9</span>]+\.([a-zA-Z]&#123;<span class="number">2</span>,<span class="number">4</span>&#125;)$</span><br><span class="line"></span><br><span class="line"><span class="comment">// (新)匹配手机号</span></span><br><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/^1[0-9]&#123;10&#125;$/</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// (旧)匹配手机号</span></span><br><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/^1(3|4|5|7|8)[0-9]&#123;9&#125;$/</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 匹配8-16位数字和字母密码的正则表达式</span></span><br><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]&#123;8,16&#125;$/</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 匹配国内电话号码 0510-4305211</span></span><br><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/\d&#123;3&#125;-\d&#123;8&#125;|\d&#123;4&#125;-\d&#123;7&#125;/</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 匹配身份证号码</span></span><br><span class="line"><span class="keyword">let</span> reg=<span class="regexp">/(^\d&#123;15&#125;$)|(^\d&#123;18&#125;$)|(^\d&#123;17&#125;(\d|X|x)$)/</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 匹配腾讯QQ号</span></span><br><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/[1-9][0-9]&#123;4,&#125;/</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 匹配ip地址</span></span><br><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/\d+\.\d+\.\d+\.\d+/</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 匹配中文</span></span><br><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/^[\u4e00-\u9fa5]*$/</span>;</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <categories>
-        <category>Javascript</category>
-      </categories>
-      <tags>
-        <tag>正则表达式</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>防抖&amp;节流函数</title>
     <url>/blog/2020/09/18/Javascript/%E9%98%B2%E6%8A%96&amp;%E8%8A%82%E6%B5%81/</url>
     <content><![CDATA[<h2 id="防抖函数"><a href="#防抖函数" class="headerlink" title="防抖函数"></a>防抖函数</h2><blockquote>
@@ -1473,29 +1473,6 @@ input和textarea的区别</p>
       </categories>
       <tags>
         <tag>性能</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Koa2快速上手</title>
-    <url>/blog/2020/02/28/NodeJs/Koa2%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/</url>
-    <content><![CDATA[<h4 id="检查Node版本"><a href="#检查Node版本" class="headerlink" title="检查Node版本"></a>检查Node版本</h4><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">node -v  // =&gt; 大于v7.6</span><br></pre></td></tr></table></figure></div>
-
-<h4 id="安装Koa"><a href="#安装Koa" class="headerlink" title="安装Koa"></a>安装Koa</h4><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm init </span><br><span class="line">npm install koa</span><br></pre></td></tr></table></figure></div>
-
-<h4 id="创建编写app-js文件"><a href="#创建编写app-js文件" class="headerlink" title="创建编写app.js文件"></a>创建编写app.js文件</h4><div class="code-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 1. 创建koa对象</span></span><br><span class="line"><span class="keyword">const</span> <span class="title class_">Koa</span> = <span class="built_in">require</span>(<span class="string">&#x27;koa&#x27;</span>)</span><br><span class="line"><span class="keyword">const</span> app = <span class="keyword">new</span> <span class="title class_">Koa</span>()</span><br><span class="line"><span class="comment">// 2. 编写响应函数（中间件 ）</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="function">(<span class="params">ctx, next</span>) =&gt;</span> &#123;</span><br><span class="line">  ctx.<span class="property">response</span>.<span class="property">body</span> = <span class="string">&#x27;hi&#x27;</span></span><br><span class="line">&#125;)</span><br><span class="line"><span class="comment">// 3. 绑定端口号</span></span><br><span class="line">app.<span class="title function_">listen</span>(<span class="number">3000</span>)</span><br></pre></td></tr></table></figure></div>
-
-<h5 id="启动服务器"><a href="#启动服务器" class="headerlink" title="启动服务器"></a>启动服务器</h5><div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">node app.js</span><br></pre></td></tr></table></figure></div>
-
-
-
-<h2 id="Koa项目"><a href="#Koa项目" class="headerlink" title="Koa项目"></a>Koa项目</h2><div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Koa                                 源码</span><br><span class="line">├── node_modules                     - npm依赖包</span><br><span class="line">├── data                             - json模拟数据</span><br><span class="line">├── middleware                       - 中间件</span><br><span class="line">│   |── koa_response_data.js            - 业务逻辑中间件</span><br><span class="line">│   |── koa_response_duration.js        - 计算耗时中间件</span><br><span class="line">│   └── koa_response_header.js          - 响应头中间件</span><br><span class="line">├── utils                           - 工具模块</span><br><span class="line">│   └── fils_utils.js               	- 读取文件工具方法</span><br><span class="line">└── app.js                          - 入口文件</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>Node</category>
-      </categories>
-      <tags>
-        <tag>Koa2</tag>
       </tags>
   </entry>
   <entry>
@@ -1665,64 +1642,26 @@ input和textarea的区别</p>
       </tags>
   </entry>
   <entry>
-    <title>setup中如何使用mapState</title>
-    <url>/blog/2020/02/28/Vue/setup%E4%B8%AD%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8mapState/</url>
-    <content><![CDATA[<blockquote>
-<p>vuex提供了mapState、mapMutations…辅助函数，让我们能够方便的映射vuex中的state、getters、mutations以及actions</p>
-</blockquote>
-<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="attr">computed</span>: &#123;</span><br><span class="line">	...<span class="title function_">mapState</span>([<span class="string">&#x27;name&#x27;</span>, <span class="string">&#x27;age&#x27;</span>]),</span><br><span class="line">	<span class="comment">// otherComputed...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+    <title>Koa2快速上手</title>
+    <url>/blog/2020/02/28/NodeJs/Koa2%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/</url>
+    <content><![CDATA[<h4 id="检查Node版本"><a href="#检查Node版本" class="headerlink" title="检查Node版本"></a>检查Node版本</h4><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">node -v  // =&gt; 大于v7.6</span><br></pre></td></tr></table></figure></div>
 
-<blockquote>
-<p>mapState函数实际生成的是一个如下的对象，我们将其展开到组件的配置中</p>
-</blockquote>
-<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="attr">computed</span>: &#123;</span><br><span class="line">	<span class="attr">name</span>: <span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="variable language_">this</span>.<span class="property">$store</span>.<span class="property">state</span>.<span class="property">name</span></span><br><span class="line">	&#125;,</span><br><span class="line">	<span class="attr">age</span>: <span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="variable language_">this</span>.<span class="property">$store</span>.<span class="property">state</span>.<span class="property">age</span></span><br><span class="line">	&#125;</span><br><span class="line">    <span class="comment">// ...otherComputed</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<h4 id="安装Koa"><a href="#安装Koa" class="headerlink" title="安装Koa"></a>安装Koa</h4><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm init </span><br><span class="line">npm install koa</span><br></pre></td></tr></table></figure></div>
 
+<h4 id="创建编写app-js文件"><a href="#创建编写app-js文件" class="headerlink" title="创建编写app.js文件"></a>创建编写app.js文件</h4><div class="code-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 1. 创建koa对象</span></span><br><span class="line"><span class="keyword">const</span> <span class="title class_">Koa</span> = <span class="built_in">require</span>(<span class="string">&#x27;koa&#x27;</span>)</span><br><span class="line"><span class="keyword">const</span> app = <span class="keyword">new</span> <span class="title class_">Koa</span>()</span><br><span class="line"><span class="comment">// 2. 编写响应函数（中间件 ）</span></span><br><span class="line">app.<span class="title function_">use</span>(<span class="function">(<span class="params">ctx, next</span>) =&gt;</span> &#123;</span><br><span class="line">  ctx.<span class="property">response</span>.<span class="property">body</span> = <span class="string">&#x27;hi&#x27;</span></span><br><span class="line">&#125;)</span><br><span class="line"><span class="comment">// 3. 绑定端口号</span></span><br><span class="line">app.<span class="title function_">listen</span>(<span class="number">3000</span>)</span><br></pre></td></tr></table></figure></div>
 
-<p>但是setup中没有computed选项，的计算属性只能使用computed组合式api进行创建，如下</p>
-<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; useStore &#125; <span class="keyword">from</span> <span class="string">&#x27;vuex&#x27;</span></span><br><span class="line"><span class="comment">// store等同于this.$store，setup中没有this，只能这个书写</span></span><br><span class="line"><span class="keyword">const</span> store = <span class="title function_">useStore</span>()</span><br><span class="line"><span class="keyword">const</span> name = <span class="title function_">computed</span>(<span class="function">() =&gt;</span> store.<span class="property">state</span>.<span class="property">name</span>)</span><br><span class="line"><span class="keyword">const</span> age = <span class="title function_">computed</span>(<span class="function">() =&gt;</span> store.<span class="property">state</span>.<span class="property">age</span>)</span><br></pre></td></tr></table></figure></div>
-
-<p>因此我们只需要将mapState返回的对象改造为setup的组合式API写法即可解决这个问题</p>
-<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 此处省略依赖导入...</span></span><br><span class="line"><span class="keyword">const</span> stateObj = <span class="title function_">mapState</span>([<span class="string">&#x27;name&#x27;</span>, <span class="string">&#x27;age&#x27;</span>])</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">// stateObj结果</span></span><br><span class="line"><span class="comment">&#123;</span></span><br><span class="line"><span class="comment">    name: function()&#123;</span></span><br><span class="line"><span class="comment">        return this.$store.state.name</span></span><br><span class="line"><span class="comment">    &#125;,</span></span><br><span class="line"><span class="comment">    age: function()&#123;</span></span><br><span class="line"><span class="comment">        return this.$store.state.age</span></span><br><span class="line"><span class="comment">    &#125;</span></span><br><span class="line"><span class="comment">&#125;</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">const</span> myState = &#123;&#125;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">const</span> key <span class="keyword">in</span> stateObj) &#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="title class_">Object</span>.<span class="property">hasOwnProperty</span>.<span class="title function_">call</span>(stateObj, key)) &#123;</span><br><span class="line">        <span class="comment">// fn函数中需要使用到this.$store，因为setup中没有this，因此需要手动修改该函数的this指向</span></span><br><span class="line">        <span class="keyword">const</span> fn = stateObj[key].<span class="title function_">bind</span>(&#123; <span class="attr">$store</span>: <span class="title function_">useStore</span>() &#125;)</span><br><span class="line">        myState[key] = <span class="title function_">computed</span>(fn)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 然后就可以正常使用我们仓库的数据了</span></span><br><span class="line"><span class="keyword">const</span> &#123; name, age &#125; = myState</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(name.<span class="property">value</span>, age.<span class="property">value</span>);</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h2><blockquote>
-<p> 每次这么写会很麻烦，不仅会使键盘的寿命缩减，还容易把手上磨出茧子，因此我们可以对这些东西进行封装</p>
-</blockquote>
-<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 省略导入语法</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">setupMapState</span> (<span class="params">keys</span>) &#123;</span><br><span class="line">    <span class="comment">// 使用仓库对象</span></span><br><span class="line">    <span class="keyword">const</span> $store = <span class="title function_">useStore</span>()</span><br><span class="line">    <span class="comment">// 根据参数进行映射</span></span><br><span class="line">    <span class="keyword">const</span> stateFn = <span class="title function_">mapState</span>(keys)</span><br><span class="line">    <span class="keyword">const</span> res = &#123;&#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">const</span> key <span class="keyword">in</span> stateFn) &#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="title class_">Object</span>.<span class="property">hasOwnProperty</span>.<span class="title function_">call</span>(stateFn, key)) &#123;</span><br><span class="line">            <span class="comment">// 修改计算函数内部this指向</span></span><br><span class="line">            <span class="keyword">const</span> fn = stateFn[key].<span class="title function_">bind</span>(&#123; $store &#125;)</span><br><span class="line">            <span class="comment">// 存储</span></span><br><span class="line">            res[key] = <span class="title function_">computed</span>(fn)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// 将映射结果返回</span></span><br><span class="line">    <span class="keyword">return</span> res</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-
-<p>大功告成，接下来就可以正常使用了</p>
-<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; name, age &#125; = <span class="title function_">setupMapState</span>([<span class="string">&#x27;name&#x27;</span>, <span class="string">&#x27;age&#x27;</span>])</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(name.<span class="property">value</span>, age.<span class="property">value</span>);</span><br></pre></td></tr></table></figure></div>
+<h5 id="启动服务器"><a href="#启动服务器" class="headerlink" title="启动服务器"></a>启动服务器</h5><div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">node app.js</span><br></pre></td></tr></table></figure></div>
 
 
 
-<h2 id="vuex的模块化"><a href="#vuex的模块化" class="headerlink" title="vuex的模块化"></a>vuex的模块化</h2><blockquote>
-<p>如果vuex进行了模块化拆分，我们在进行映射时需要传递对应的模块名，显然现在的一个参数难以满足我们的需求，展开运算符可以帮上大忙</p>
-</blockquote>
-<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 省略导入语法</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">setupMapState</span> (<span class="params">...arg</span>) &#123;</span><br><span class="line">    <span class="comment">// 使用仓库对象</span></span><br><span class="line">    <span class="keyword">const</span> $store = <span class="title function_">useStore</span>()</span><br><span class="line">    <span class="comment">// 根据参数进行映射</span></span><br><span class="line">    <span class="keyword">const</span> stateFn = <span class="title function_">mapState</span>(...arg)</span><br><span class="line">    <span class="keyword">const</span> res = &#123;&#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">const</span> key <span class="keyword">in</span> stateFn) &#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="title class_">Object</span>.<span class="property">hasOwnProperty</span>.<span class="title function_">call</span>(stateFn, key)) &#123;</span><br><span class="line">            <span class="comment">// 修改计算函数内部this指向</span></span><br><span class="line">            <span class="keyword">const</span> fn = stateFn[key].<span class="title function_">bind</span>(&#123; $store &#125;)</span><br><span class="line">            <span class="comment">// 存储</span></span><br><span class="line">            res[key] = <span class="title function_">computed</span>(fn)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// 将映射结果返回</span></span><br><span class="line">    <span class="keyword">return</span> res</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-
-<p>这样就能支持其他模块的导入了</p>
-<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; name, age &#125; = <span class="title function_">setupMapState</span>([<span class="string">&#x27;name&#x27;</span>, <span class="string">&#x27;age&#x27;</span>])</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(name.<span class="property">value</span>, age.<span class="property">value</span>);</span><br><span class="line"><span class="keyword">const</span> &#123; <span class="attr">name</span>: otherModuleName &#125; = <span class="title function_">setupMapState</span>(<span class="string">&#x27;otherModule&#x27;</span> ,[<span class="string">&#x27;name&#x27;</span>]) </span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(otherModuleName.<span class="property">value</span>);</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="最终版本"><a href="#最终版本" class="headerlink" title="最终版本"></a>最终版本</h2><blockquote>
-<p> 其他的映射函数也可以进行处理，这样就更加方便了</p>
-</blockquote>
-<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; computed &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="comment">// 相关辅助函数导入</span></span><br><span class="line"><span class="keyword">import</span> &#123; mapActions, mapGetters, mapMutations, mapState, useStore &#125; <span class="keyword">from</span> <span class="string">&#x27;vuex&#x27;</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">mapAll</span> (<span class="params">keys, mapFn</span>) &#123;</span><br><span class="line">    <span class="comment">// 导入仓库对象</span></span><br><span class="line">    <span class="keyword">const</span> $store = <span class="title function_">useStore</span>()</span><br><span class="line">    <span class="comment">// 根据传入的辅助函数和其他参数进行映射</span></span><br><span class="line">    <span class="keyword">const</span> stateFn = <span class="title function_">mapFn</span>(...keys)</span><br><span class="line">    <span class="comment">// 记录映射结果</span></span><br><span class="line">    <span class="keyword">const</span> res = &#123;&#125;</span><br><span class="line">    <span class="comment">// 如果映射的是state或getters需要使用computed组合式API包裹，因此做了这样一个判断</span></span><br><span class="line">    <span class="keyword">const</span> isMapData = [mapState, mapGetters].<span class="title function_">includes</span>(mapFn)</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">const</span> key <span class="keyword">in</span> stateFn) &#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="title class_">Object</span>.<span class="property">hasOwnProperty</span>.<span class="title function_">call</span>(stateFn, key)) &#123;</span><br><span class="line">            <span class="comment">// 修改映射函数内部this指向</span></span><br><span class="line">            <span class="keyword">const</span> fn = stateFn[key].<span class="title function_">bind</span>(&#123; $store &#125;)</span><br><span class="line">            <span class="comment">// 记录：state或getters使用computed进行包裹，其他的直接记录</span></span><br><span class="line">            res[key] = isMapData ? <span class="title function_">computed</span>(fn) : fn</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// 返回结果</span></span><br><span class="line">    <span class="keyword">return</span> res</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 导出对应的setup映射函数</span></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">function</span> <span class="title function_">setupMapState</span> (<span class="params">...keys</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_">mapAll</span>(keys, mapState)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">function</span> <span class="title function_">setupMapMutations</span> (<span class="params">...keys</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_">mapAll</span>(keys, mapMutations)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">function</span> <span class="title function_">setupMapGetters</span> (<span class="params">...keys</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_">mapAll</span>(keys, mapGetters)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">function</span> <span class="title function_">setupMapActions</span> (<span class="params">...keys</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_">mapAll</span>(keys, mapActions)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-
-<p>使用说明: 封装完成之后只需要进行导入，然后和使用正常的辅助函数用法相同</p>
-<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 映射state</span></span><br><span class="line"><span class="keyword">const</span> &#123; name &#125; = <span class="title function_">setupMapState</span>([<span class="string">&#x27;name&#x27;</span>, <span class="string">&#x27;age&#x27;</span>])</span><br><span class="line"><span class="comment">// 其他模块的state</span></span><br><span class="line"><span class="keyword">const</span> &#123; <span class="attr">name</span>: homeName &#125; = <span class="title function_">setupMapState</span>(<span class="string">&#x27;home&#x27;</span>, [<span class="string">&#x27;name&#x27;</span>])</span><br><span class="line"><span class="comment">// 映射mutations</span></span><br><span class="line"><span class="keyword">const</span> &#123; setName &#125; = <span class="title function_">setupMapMutations</span>([<span class="string">&#x27;setName&#x27;</span>])</span><br><span class="line"><span class="comment">// 映射getters</span></span><br><span class="line"><span class="keyword">const</span> &#123; names &#125; = <span class="title function_">setupMapGetters</span>(&#123;</span><br><span class="line">  <span class="attr">names</span>: <span class="string">&#x27;getName&#x27;</span></span><br><span class="line">&#125;)</span><br><span class="line"><span class="comment">// 映射actions</span></span><br><span class="line"><span class="keyword">const</span> &#123; postName &#125; = <span class="title function_">setupMapActions</span>([<span class="string">&#x27;postName&#x27;</span>])</span><br><span class="line"><span class="comment">// 传参方式和vuex辅助函数相同</span></span><br></pre></td></tr></table></figure></div>
-
-
-
-
+<h2 id="Koa项目"><a href="#Koa项目" class="headerlink" title="Koa项目"></a>Koa项目</h2><div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Koa                                 源码</span><br><span class="line">├── node_modules                     - npm依赖包</span><br><span class="line">├── data                             - json模拟数据</span><br><span class="line">├── middleware                       - 中间件</span><br><span class="line">│   |── koa_response_data.js            - 业务逻辑中间件</span><br><span class="line">│   |── koa_response_duration.js        - 计算耗时中间件</span><br><span class="line">│   └── koa_response_header.js          - 响应头中间件</span><br><span class="line">├── utils                           - 工具模块</span><br><span class="line">│   └── fils_utils.js               	- 读取文件工具方法</span><br><span class="line">└── app.js                          - 入口文件</span><br></pre></td></tr></table></figure></div>
 
 ]]></content>
       <categories>
-        <category>Vue</category>
+        <category>Node</category>
       </categories>
       <tags>
-        <tag>vue3</tag>
+        <tag>Koa2</tag>
       </tags>
   </entry>
   <entry>
@@ -1790,69 +1729,6 @@ input和textarea的区别</p>
       </categories>
       <tags>
         <tag>Vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>setup中如何使用mapState</title>
-    <url>/blog/2020/02/28/Vue/vue-cli%E9%85%8D%E7%BD%AE%E5%A4%9A%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</url>
-    <content><![CDATA[<h2 id="开发环境、测试环境、生产环境"><a href="#开发环境、测试环境、生产环境" class="headerlink" title="开发环境、测试环境、生产环境"></a>开发环境、测试环境、生产环境</h2><p>1.开发环境，创建.env.development文件</p>
-<div class="code-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="code"><pre><span class="line">VUE_APP_BASEURL=<span class="string">&quot;http://192.168.0.136:8088&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>2.测试环境，创建.env.test文件</p>
-<div class="code-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="code"><pre><span class="line">VUE_APP_BASEURL=<span class="string">&quot;http://test.baidu.com&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>3.生产环境，创建.env.production文件</p>
-<div class="code-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="code"><pre><span class="line">VUE_APP_BASEURL=<span class="string">&quot;http://www.baidu.com&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-
-
-<h2 id="package-json文件的配置"><a href="#package-json文件的配置" class="headerlink" title="package.json文件的配置"></a>package.json文件的配置</h2><div class="code-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;scripts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;serve&quot;</span><span class="punctuation">:</span> <span class="string">&quot;vue-cli-service serve&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;build&quot;</span><span class="punctuation">:</span> <span class="string">&quot;vue-cli-service build&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;test&quot;</span><span class="punctuation">:</span> <span class="string">&quot;vue-cli-service build --mode test&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br></pre></td></tr></table></figure></div>
-
-
-
-<h2 id="打包命令"><a href="#打包命令" class="headerlink" title="打包命令"></a>打包命令</h2><p>1.打生产包</p>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm run build</span><br></pre></td></tr></table></figure></div>
-
-<p>2.打测试包</p>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm run <span class="built_in">test</span></span><br></pre></td></tr></table></figure></div>
-
-
-
-<h2 id="打包后的dist目录如何启动？"><a href="#打包后的dist目录如何启动？" class="headerlink" title="打包后的dist目录如何启动？"></a>打包后的dist目录如何启动？</h2><p>安装web 服务</p>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm i -g serve</span><br></pre></td></tr></table></figure></div>
-
-<p>启动</p>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">serve dist</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>Vue</category>
-      </categories>
-      <tags>
-        <tag>vue-cli</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue3实现遮罩层外部禁止页面滚动，内部可滚动</title>
-    <url>/blog/2020/02/28/Vue/vue3%E5%AE%9E%E7%8E%B0%E9%81%AE%E7%BD%A9%E5%B1%82%E5%A4%96%E9%83%A8%E7%A6%81%E6%AD%A2%E9%A1%B5%E9%9D%A2%E6%BB%9A%E5%8A%A8%EF%BC%8C%E5%86%85%E9%83%A8%E5%8F%AF%E6%BB%9A%E5%8A%A8/</url>
-    <content><![CDATA[<blockquote>
-<p>方法一：直接在遮罩层添加 <code>@touchmove.prevent</code> ，就可以实现禁止页面滚动，但是同时遮罩层内部也无法滚动了，适用于内部不需滚动的场景。</p>
-</blockquote>
-<blockquote>
-<p>方法二：(此方法可以实现需求，但是关闭遮罩层后主页面会滑动到顶部，无法回到原来的浏览位置)</p>
-</blockquote>
-<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> mo = <span class="keyword">function</span>(<span class="params">e</span>)&#123;</span><br><span class="line">    e.<span class="title function_">preventDefault</span>();</span><br><span class="line">&#125;;</span><br><span class="line"> </span><br><span class="line"><span class="comment">//禁止滚动-在显示遮罩层的时候调用</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">stopScroll</span>(<span class="params"></span>)&#123;</span><br><span class="line">   <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">overflow</span> = <span class="string">&#x27;hidden&#x27;</span>;</span><br><span class="line">   <span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(<span class="string">&quot;touchmove&quot;</span>, mo, <span class="literal">false</span>);</span><br><span class="line">&#125;,</span><br><span class="line"><span class="comment">// 取消滑动限制-在关闭遮罩层的时候调用</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">resetScroll</span>(<span class="params"></span>)&#123;</span><br><span class="line">   <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">overflow</span> = <span class="string">&#x27;&#x27;</span>;<span class="comment">//出现滚动条</span></span><br><span class="line">   <span class="variable language_">document</span>.<span class="title function_">removeEventListener</span>(<span class="string">&quot;touchmove&quot;</span>, mo, <span class="literal">false</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<blockquote>
-<p>方法三：（推荐：此方法不仅可以实现需求，还会记录打开遮罩层时的位置，使关闭后仍然停在原来的位置）</p>
-</blockquote>
-<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 记录页面滚动位置</span></span><br><span class="line"><span class="keyword">const</span> pageLocation = <span class="title function_">ref</span>(<span class="string">&#x27;&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 禁止滚动-在显示遮罩层的时候调用</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">stopScroll</span>(<span class="params">e</span>) &#123;</span><br><span class="line">    <span class="keyword">let</span> scrollTop = <span class="variable language_">window</span>.<span class="property">scrollY</span>;<span class="comment">//滚动的高度；</span></span><br><span class="line">    pageLocation.<span class="property">value</span> = scrollTop;</span><br><span class="line">    <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">position</span> = <span class="string">&#x27;fixed&#x27;</span>;</span><br><span class="line">    <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">top</span> = <span class="string">&#x27;-&#x27;</span> + scrollTop + <span class="string">&#x27;px&#x27;</span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 取消滑动限制-在关闭遮罩层的时候调用</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">resetScroll</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">position</span> = <span class="string">&#x27;static&#x27;</span>;</span><br><span class="line">    <span class="variable language_">window</span>.<span class="title function_">scrollTo</span>(<span class="number">0</span>, pageLocation.<span class="property">value</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>Vue</category>
-      </categories>
-      <tags>
-        <tag>vue3</tag>
       </tags>
   </entry>
   <entry>
@@ -2468,6 +2344,130 @@ input和textarea的区别</p>
 <blockquote>
 <p>知乎：<a class="link"   href="https://zhuanlan.zhihu.com/p/437632696?utm_id=0" >https://zhuanlan.zhihu.com/p/437632696?utm_id=0<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> </p>
 </blockquote>
+]]></content>
+      <categories>
+        <category>Vue</category>
+      </categories>
+      <tags>
+        <tag>vue3</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>setup中如何使用mapState</title>
+    <url>/blog/2020/02/28/Vue/setup%E4%B8%AD%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8mapState/</url>
+    <content><![CDATA[<blockquote>
+<p>vuex提供了mapState、mapMutations…辅助函数，让我们能够方便的映射vuex中的state、getters、mutations以及actions</p>
+</blockquote>
+<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="attr">computed</span>: &#123;</span><br><span class="line">	...<span class="title function_">mapState</span>([<span class="string">&#x27;name&#x27;</span>, <span class="string">&#x27;age&#x27;</span>]),</span><br><span class="line">	<span class="comment">// otherComputed...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<blockquote>
+<p>mapState函数实际生成的是一个如下的对象，我们将其展开到组件的配置中</p>
+</blockquote>
+<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="attr">computed</span>: &#123;</span><br><span class="line">	<span class="attr">name</span>: <span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="variable language_">this</span>.<span class="property">$store</span>.<span class="property">state</span>.<span class="property">name</span></span><br><span class="line">	&#125;,</span><br><span class="line">	<span class="attr">age</span>: <span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="variable language_">this</span>.<span class="property">$store</span>.<span class="property">state</span>.<span class="property">age</span></span><br><span class="line">	&#125;</span><br><span class="line">    <span class="comment">// ...otherComputed</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+
+<p>但是setup中没有computed选项，的计算属性只能使用computed组合式api进行创建，如下</p>
+<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; useStore &#125; <span class="keyword">from</span> <span class="string">&#x27;vuex&#x27;</span></span><br><span class="line"><span class="comment">// store等同于this.$store，setup中没有this，只能这个书写</span></span><br><span class="line"><span class="keyword">const</span> store = <span class="title function_">useStore</span>()</span><br><span class="line"><span class="keyword">const</span> name = <span class="title function_">computed</span>(<span class="function">() =&gt;</span> store.<span class="property">state</span>.<span class="property">name</span>)</span><br><span class="line"><span class="keyword">const</span> age = <span class="title function_">computed</span>(<span class="function">() =&gt;</span> store.<span class="property">state</span>.<span class="property">age</span>)</span><br></pre></td></tr></table></figure></div>
+
+<p>因此我们只需要将mapState返回的对象改造为setup的组合式API写法即可解决这个问题</p>
+<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 此处省略依赖导入...</span></span><br><span class="line"><span class="keyword">const</span> stateObj = <span class="title function_">mapState</span>([<span class="string">&#x27;name&#x27;</span>, <span class="string">&#x27;age&#x27;</span>])</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">// stateObj结果</span></span><br><span class="line"><span class="comment">&#123;</span></span><br><span class="line"><span class="comment">    name: function()&#123;</span></span><br><span class="line"><span class="comment">        return this.$store.state.name</span></span><br><span class="line"><span class="comment">    &#125;,</span></span><br><span class="line"><span class="comment">    age: function()&#123;</span></span><br><span class="line"><span class="comment">        return this.$store.state.age</span></span><br><span class="line"><span class="comment">    &#125;</span></span><br><span class="line"><span class="comment">&#125;</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">const</span> myState = &#123;&#125;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">const</span> key <span class="keyword">in</span> stateObj) &#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="title class_">Object</span>.<span class="property">hasOwnProperty</span>.<span class="title function_">call</span>(stateObj, key)) &#123;</span><br><span class="line">        <span class="comment">// fn函数中需要使用到this.$store，因为setup中没有this，因此需要手动修改该函数的this指向</span></span><br><span class="line">        <span class="keyword">const</span> fn = stateObj[key].<span class="title function_">bind</span>(&#123; <span class="attr">$store</span>: <span class="title function_">useStore</span>() &#125;)</span><br><span class="line">        myState[key] = <span class="title function_">computed</span>(fn)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 然后就可以正常使用我们仓库的数据了</span></span><br><span class="line"><span class="keyword">const</span> &#123; name, age &#125; = myState</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(name.<span class="property">value</span>, age.<span class="property">value</span>);</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h2><blockquote>
+<p> 每次这么写会很麻烦，不仅会使键盘的寿命缩减，还容易把手上磨出茧子，因此我们可以对这些东西进行封装</p>
+</blockquote>
+<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 省略导入语法</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">setupMapState</span> (<span class="params">keys</span>) &#123;</span><br><span class="line">    <span class="comment">// 使用仓库对象</span></span><br><span class="line">    <span class="keyword">const</span> $store = <span class="title function_">useStore</span>()</span><br><span class="line">    <span class="comment">// 根据参数进行映射</span></span><br><span class="line">    <span class="keyword">const</span> stateFn = <span class="title function_">mapState</span>(keys)</span><br><span class="line">    <span class="keyword">const</span> res = &#123;&#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">const</span> key <span class="keyword">in</span> stateFn) &#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="title class_">Object</span>.<span class="property">hasOwnProperty</span>.<span class="title function_">call</span>(stateFn, key)) &#123;</span><br><span class="line">            <span class="comment">// 修改计算函数内部this指向</span></span><br><span class="line">            <span class="keyword">const</span> fn = stateFn[key].<span class="title function_">bind</span>(&#123; $store &#125;)</span><br><span class="line">            <span class="comment">// 存储</span></span><br><span class="line">            res[key] = <span class="title function_">computed</span>(fn)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// 将映射结果返回</span></span><br><span class="line">    <span class="keyword">return</span> res</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+
+<p>大功告成，接下来就可以正常使用了</p>
+<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; name, age &#125; = <span class="title function_">setupMapState</span>([<span class="string">&#x27;name&#x27;</span>, <span class="string">&#x27;age&#x27;</span>])</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(name.<span class="property">value</span>, age.<span class="property">value</span>);</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h2 id="vuex的模块化"><a href="#vuex的模块化" class="headerlink" title="vuex的模块化"></a>vuex的模块化</h2><blockquote>
+<p>如果vuex进行了模块化拆分，我们在进行映射时需要传递对应的模块名，显然现在的一个参数难以满足我们的需求，展开运算符可以帮上大忙</p>
+</blockquote>
+<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 省略导入语法</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">setupMapState</span> (<span class="params">...arg</span>) &#123;</span><br><span class="line">    <span class="comment">// 使用仓库对象</span></span><br><span class="line">    <span class="keyword">const</span> $store = <span class="title function_">useStore</span>()</span><br><span class="line">    <span class="comment">// 根据参数进行映射</span></span><br><span class="line">    <span class="keyword">const</span> stateFn = <span class="title function_">mapState</span>(...arg)</span><br><span class="line">    <span class="keyword">const</span> res = &#123;&#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">const</span> key <span class="keyword">in</span> stateFn) &#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="title class_">Object</span>.<span class="property">hasOwnProperty</span>.<span class="title function_">call</span>(stateFn, key)) &#123;</span><br><span class="line">            <span class="comment">// 修改计算函数内部this指向</span></span><br><span class="line">            <span class="keyword">const</span> fn = stateFn[key].<span class="title function_">bind</span>(&#123; $store &#125;)</span><br><span class="line">            <span class="comment">// 存储</span></span><br><span class="line">            res[key] = <span class="title function_">computed</span>(fn)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// 将映射结果返回</span></span><br><span class="line">    <span class="keyword">return</span> res</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+
+<p>这样就能支持其他模块的导入了</p>
+<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; name, age &#125; = <span class="title function_">setupMapState</span>([<span class="string">&#x27;name&#x27;</span>, <span class="string">&#x27;age&#x27;</span>])</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(name.<span class="property">value</span>, age.<span class="property">value</span>);</span><br><span class="line"><span class="keyword">const</span> &#123; <span class="attr">name</span>: otherModuleName &#125; = <span class="title function_">setupMapState</span>(<span class="string">&#x27;otherModule&#x27;</span> ,[<span class="string">&#x27;name&#x27;</span>]) </span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(otherModuleName.<span class="property">value</span>);</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="最终版本"><a href="#最终版本" class="headerlink" title="最终版本"></a>最终版本</h2><blockquote>
+<p> 其他的映射函数也可以进行处理，这样就更加方便了</p>
+</blockquote>
+<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; computed &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="comment">// 相关辅助函数导入</span></span><br><span class="line"><span class="keyword">import</span> &#123; mapActions, mapGetters, mapMutations, mapState, useStore &#125; <span class="keyword">from</span> <span class="string">&#x27;vuex&#x27;</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">mapAll</span> (<span class="params">keys, mapFn</span>) &#123;</span><br><span class="line">    <span class="comment">// 导入仓库对象</span></span><br><span class="line">    <span class="keyword">const</span> $store = <span class="title function_">useStore</span>()</span><br><span class="line">    <span class="comment">// 根据传入的辅助函数和其他参数进行映射</span></span><br><span class="line">    <span class="keyword">const</span> stateFn = <span class="title function_">mapFn</span>(...keys)</span><br><span class="line">    <span class="comment">// 记录映射结果</span></span><br><span class="line">    <span class="keyword">const</span> res = &#123;&#125;</span><br><span class="line">    <span class="comment">// 如果映射的是state或getters需要使用computed组合式API包裹，因此做了这样一个判断</span></span><br><span class="line">    <span class="keyword">const</span> isMapData = [mapState, mapGetters].<span class="title function_">includes</span>(mapFn)</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">const</span> key <span class="keyword">in</span> stateFn) &#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="title class_">Object</span>.<span class="property">hasOwnProperty</span>.<span class="title function_">call</span>(stateFn, key)) &#123;</span><br><span class="line">            <span class="comment">// 修改映射函数内部this指向</span></span><br><span class="line">            <span class="keyword">const</span> fn = stateFn[key].<span class="title function_">bind</span>(&#123; $store &#125;)</span><br><span class="line">            <span class="comment">// 记录：state或getters使用computed进行包裹，其他的直接记录</span></span><br><span class="line">            res[key] = isMapData ? <span class="title function_">computed</span>(fn) : fn</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// 返回结果</span></span><br><span class="line">    <span class="keyword">return</span> res</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 导出对应的setup映射函数</span></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">function</span> <span class="title function_">setupMapState</span> (<span class="params">...keys</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_">mapAll</span>(keys, mapState)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">function</span> <span class="title function_">setupMapMutations</span> (<span class="params">...keys</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_">mapAll</span>(keys, mapMutations)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">function</span> <span class="title function_">setupMapGetters</span> (<span class="params">...keys</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_">mapAll</span>(keys, mapGetters)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">function</span> <span class="title function_">setupMapActions</span> (<span class="params">...keys</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_">mapAll</span>(keys, mapActions)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+
+<p>使用说明: 封装完成之后只需要进行导入，然后和使用正常的辅助函数用法相同</p>
+<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 映射state</span></span><br><span class="line"><span class="keyword">const</span> &#123; name &#125; = <span class="title function_">setupMapState</span>([<span class="string">&#x27;name&#x27;</span>, <span class="string">&#x27;age&#x27;</span>])</span><br><span class="line"><span class="comment">// 其他模块的state</span></span><br><span class="line"><span class="keyword">const</span> &#123; <span class="attr">name</span>: homeName &#125; = <span class="title function_">setupMapState</span>(<span class="string">&#x27;home&#x27;</span>, [<span class="string">&#x27;name&#x27;</span>])</span><br><span class="line"><span class="comment">// 映射mutations</span></span><br><span class="line"><span class="keyword">const</span> &#123; setName &#125; = <span class="title function_">setupMapMutations</span>([<span class="string">&#x27;setName&#x27;</span>])</span><br><span class="line"><span class="comment">// 映射getters</span></span><br><span class="line"><span class="keyword">const</span> &#123; names &#125; = <span class="title function_">setupMapGetters</span>(&#123;</span><br><span class="line">  <span class="attr">names</span>: <span class="string">&#x27;getName&#x27;</span></span><br><span class="line">&#125;)</span><br><span class="line"><span class="comment">// 映射actions</span></span><br><span class="line"><span class="keyword">const</span> &#123; postName &#125; = <span class="title function_">setupMapActions</span>([<span class="string">&#x27;postName&#x27;</span>])</span><br><span class="line"><span class="comment">// 传参方式和vuex辅助函数相同</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>Vue</category>
+      </categories>
+      <tags>
+        <tag>vue3</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>setup中如何使用mapState</title>
+    <url>/blog/2020/02/28/Vue/vue-cli%E9%85%8D%E7%BD%AE%E5%A4%9A%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</url>
+    <content><![CDATA[<h2 id="开发环境、测试环境、生产环境"><a href="#开发环境、测试环境、生产环境" class="headerlink" title="开发环境、测试环境、生产环境"></a>开发环境、测试环境、生产环境</h2><p>1.开发环境，创建.env.development文件</p>
+<div class="code-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="code"><pre><span class="line">VUE_APP_BASEURL=<span class="string">&quot;http://192.168.0.136:8088&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>2.测试环境，创建.env.test文件</p>
+<div class="code-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="code"><pre><span class="line">VUE_APP_BASEURL=<span class="string">&quot;http://test.baidu.com&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>3.生产环境，创建.env.production文件</p>
+<div class="code-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="code"><pre><span class="line">VUE_APP_BASEURL=<span class="string">&quot;http://www.baidu.com&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+<h2 id="package-json文件的配置"><a href="#package-json文件的配置" class="headerlink" title="package.json文件的配置"></a>package.json文件的配置</h2><div class="code-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;scripts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;serve&quot;</span><span class="punctuation">:</span> <span class="string">&quot;vue-cli-service serve&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;build&quot;</span><span class="punctuation">:</span> <span class="string">&quot;vue-cli-service build&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;test&quot;</span><span class="punctuation">:</span> <span class="string">&quot;vue-cli-service build --mode test&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+<h2 id="打包命令"><a href="#打包命令" class="headerlink" title="打包命令"></a>打包命令</h2><p>1.打生产包</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm run build</span><br></pre></td></tr></table></figure></div>
+
+<p>2.打测试包</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm run <span class="built_in">test</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+<h2 id="打包后的dist目录如何启动？"><a href="#打包后的dist目录如何启动？" class="headerlink" title="打包后的dist目录如何启动？"></a>打包后的dist目录如何启动？</h2><p>安装web 服务</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm i -g serve</span><br></pre></td></tr></table></figure></div>
+
+<p>启动</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">serve dist</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>Vue</category>
+      </categories>
+      <tags>
+        <tag>vue-cli</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue3实现遮罩层外部禁止页面滚动，内部可滚动</title>
+    <url>/blog/2020/02/28/Vue/vue3%E5%AE%9E%E7%8E%B0%E9%81%AE%E7%BD%A9%E5%B1%82%E5%A4%96%E9%83%A8%E7%A6%81%E6%AD%A2%E9%A1%B5%E9%9D%A2%E6%BB%9A%E5%8A%A8%EF%BC%8C%E5%86%85%E9%83%A8%E5%8F%AF%E6%BB%9A%E5%8A%A8/</url>
+    <content><![CDATA[<blockquote>
+<p>方法一：直接在遮罩层添加 <code>@touchmove.prevent</code> ，就可以实现禁止页面滚动，但是同时遮罩层内部也无法滚动了，适用于内部不需滚动的场景。</p>
+</blockquote>
+<blockquote>
+<p>方法二：(此方法可以实现需求，但是关闭遮罩层后主页面会滑动到顶部，无法回到原来的浏览位置)</p>
+</blockquote>
+<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> mo = <span class="keyword">function</span>(<span class="params">e</span>)&#123;</span><br><span class="line">    e.<span class="title function_">preventDefault</span>();</span><br><span class="line">&#125;;</span><br><span class="line"> </span><br><span class="line"><span class="comment">//禁止滚动-在显示遮罩层的时候调用</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">stopScroll</span>(<span class="params"></span>)&#123;</span><br><span class="line">   <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">overflow</span> = <span class="string">&#x27;hidden&#x27;</span>;</span><br><span class="line">   <span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(<span class="string">&quot;touchmove&quot;</span>, mo, <span class="literal">false</span>);</span><br><span class="line">&#125;,</span><br><span class="line"><span class="comment">// 取消滑动限制-在关闭遮罩层的时候调用</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">resetScroll</span>(<span class="params"></span>)&#123;</span><br><span class="line">   <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">overflow</span> = <span class="string">&#x27;&#x27;</span>;<span class="comment">//出现滚动条</span></span><br><span class="line">   <span class="variable language_">document</span>.<span class="title function_">removeEventListener</span>(<span class="string">&quot;touchmove&quot;</span>, mo, <span class="literal">false</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<blockquote>
+<p>方法三：（推荐：此方法不仅可以实现需求，还会记录打开遮罩层时的位置，使关闭后仍然停在原来的位置）</p>
+</blockquote>
+<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 记录页面滚动位置</span></span><br><span class="line"><span class="keyword">const</span> pageLocation = <span class="title function_">ref</span>(<span class="string">&#x27;&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 禁止滚动-在显示遮罩层的时候调用</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">stopScroll</span>(<span class="params">e</span>) &#123;</span><br><span class="line">    <span class="keyword">let</span> scrollTop = <span class="variable language_">window</span>.<span class="property">scrollY</span>;<span class="comment">//滚动的高度；</span></span><br><span class="line">    pageLocation.<span class="property">value</span> = scrollTop;</span><br><span class="line">    <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">position</span> = <span class="string">&#x27;fixed&#x27;</span>;</span><br><span class="line">    <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">top</span> = <span class="string">&#x27;-&#x27;</span> + scrollTop + <span class="string">&#x27;px&#x27;</span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 取消滑动限制-在关闭遮罩层的时候调用</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">resetScroll</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">position</span> = <span class="string">&#x27;static&#x27;</span>;</span><br><span class="line">    <span class="variable language_">window</span>.<span class="title function_">scrollTo</span>(<span class="number">0</span>, pageLocation.<span class="property">value</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
 ]]></content>
       <categories>
         <category>Vue</category>
@@ -3679,49 +3679,6 @@ input和textarea的区别</p>
       </tags>
   </entry>
   <entry>
-    <title>动态切换elementui主题</title>
-    <url>/blog/2021/03/06/%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/%E5%8A%A8%E6%80%81%E5%88%87%E6%8D%A2elementui%E4%B8%BB%E9%A2%98/</url>
-    <content><![CDATA[<h4 id="准备自定义的主题"><a href="#准备自定义的主题" class="headerlink" title="准备自定义的主题"></a>准备自定义的主题</h4><blockquote>
-<p>在<a class="link"   href="https://element.eleme.cn/#/zh-CN/theme" >element ui<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>官网主题页下载自定义后的主题，多套主题存放本地，两者有不同的命名空间，如写两套主题，一套叫 <code>theme-dark</code>，一套叫 <code>theme-light</code> ，主题都在它的 <code>.theme-dark</code>或<code>.theme-light</code> 的命名空间下</p>
-</blockquote>
-<h4 id="批量为css文件扩展命名空间"><a href="#批量为css文件扩展命名空间" class="headerlink" title="批量为css文件扩展命名空间"></a>批量为css文件扩展命名空间</h4><blockquote>
-<p>使用gulp-css-wrap将这个主题的每个元素外面包裹一个class 来做命名空间。</p>
-</blockquote>
-<ol>
-<li><p>创建一个新的项目<code>css-wrap</code>，并初始化搭建gulp环境</p>
-<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 1.安装gulp：</span><br><span class="line">npm install gulp</span><br><span class="line">// 2.安装gulp-clean-css</span><br><span class="line">npm install gulp-clean-css</span><br><span class="line">// 3.安装gulp-css-wrap</span><br><span class="line">npm install gulp-css-wrap</span><br></pre></td></tr></table></figure></div>
-
-</li>
-<li><p>在项目根目录下创建一个名为 gulpfile.js 的文件</p>
-<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> path = <span class="built_in">require</span>(<span class="string">&#x27;path&#x27;</span>)</span><br><span class="line"><span class="keyword">var</span> gulp = <span class="built_in">require</span>(<span class="string">&#x27;gulp&#x27;</span>)</span><br><span class="line"><span class="keyword">var</span> cleanCSS = <span class="built_in">require</span>(<span class="string">&#x27;gulp-clean-css&#x27;</span>)</span><br><span class="line"><span class="keyword">var</span> cssWrap = <span class="built_in">require</span>(<span class="string">&#x27;gulp-css-wrap&#x27;</span>)</span><br><span class="line">gulp.<span class="title function_">task</span>(<span class="string">&#x27;css-wrap&#x27;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> gulp.<span class="title function_">src</span>(path.<span class="title function_">resolve</span>(<span class="string">&#x27;./theme/index.css&#x27;</span>))</span><br><span class="line">  <span class="comment">/* 找需要添加命名空间的css文件，支持正则表达式 */</span></span><br><span class="line">  .<span class="title function_">pipe</span>(<span class="title function_">cssWrap</span>(&#123;</span><br><span class="line">      <span class="attr">selector</span>: <span class="string">&#x27;.custom-dark&#x27;</span> <span class="comment">/* 添加的命名空间 */</span></span><br><span class="line">  &#125;))</span><br><span class="line">  .<span class="title function_">pipe</span>(<span class="title function_">cleanCSS</span>())</span><br><span class="line">  .<span class="title function_">pipe</span>(gulp.<span class="title function_">dest</span>(<span class="string">&#x27;src/theme&#x27;</span>)) <span class="comment">/* 存放的目录 */</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></div>
-</li>
-<li><p>将生成在<code>scr/theme</code>下的css和字体文件复制到所需项目中</p>
-</li>
-</ol>
-<h4 id="项目中动态切换主题"><a href="#项目中动态切换主题" class="headerlink" title="项目中动态切换主题"></a>项目中动态切换主题</h4><ol>
-<li>在<code>main.js</code>中引入全部所需的css主题样式</li>
-</ol>
-<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-ui/lib/theme-chalk/index.css&#x27;</span>; <span class="comment">// 基础css不能少，否则一些组件会丢失样式</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;../src/styles/theme/dark.css&quot;</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;../src/styles/theme/light.css&quot;</span>;</span><br></pre></td></tr></table></figure></div>
-
-<ol start="2">
-<li>设置<code>App.vue</code>入口页面中<code>#app</code>的元素的类名为默认主题的名称</li>
-</ol>
-<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div id=&quot;app&quot; class=&quot;custom-dark&quot;&gt;</span><br><span class="line">    &lt;router-view&gt;&lt;/router-view&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br></pre></td></tr></table></figure></div>
-
-<ol start="3">
-<li>修改<code>#app</code>元素的类目切换主题</li>
-</ol>
-<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;app&quot;</span>).<span class="title function_">setAttribute</span>(<span class="string">&quot;class&quot;</span>, <span class="string">&#x27;custom-&#x27;</span> + <span class="variable language_">this</span>.<span class="property">theme</span>);</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>开发</category>
-      </categories>
-      <tags>
-        <tag>elementui</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>后台管理系统的权限控制与管理</title>
     <url>/blog/2021/11/18/%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6%E4%B8%8E%E7%AE%A1%E7%90%86/</url>
     <content><![CDATA[<blockquote>
@@ -3802,6 +3759,49 @@ input和textarea的区别</p>
       </categories>
       <tags>
         <tag>权限控制</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>动态切换elementui主题</title>
+    <url>/blog/2021/03/06/%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/%E5%8A%A8%E6%80%81%E5%88%87%E6%8D%A2elementui%E4%B8%BB%E9%A2%98/</url>
+    <content><![CDATA[<h4 id="准备自定义的主题"><a href="#准备自定义的主题" class="headerlink" title="准备自定义的主题"></a>准备自定义的主题</h4><blockquote>
+<p>在<a class="link"   href="https://element.eleme.cn/#/zh-CN/theme" >element ui<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>官网主题页下载自定义后的主题，多套主题存放本地，两者有不同的命名空间，如写两套主题，一套叫 <code>theme-dark</code>，一套叫 <code>theme-light</code> ，主题都在它的 <code>.theme-dark</code>或<code>.theme-light</code> 的命名空间下</p>
+</blockquote>
+<h4 id="批量为css文件扩展命名空间"><a href="#批量为css文件扩展命名空间" class="headerlink" title="批量为css文件扩展命名空间"></a>批量为css文件扩展命名空间</h4><blockquote>
+<p>使用gulp-css-wrap将这个主题的每个元素外面包裹一个class 来做命名空间。</p>
+</blockquote>
+<ol>
+<li><p>创建一个新的项目<code>css-wrap</code>，并初始化搭建gulp环境</p>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 1.安装gulp：</span><br><span class="line">npm install gulp</span><br><span class="line">// 2.安装gulp-clean-css</span><br><span class="line">npm install gulp-clean-css</span><br><span class="line">// 3.安装gulp-css-wrap</span><br><span class="line">npm install gulp-css-wrap</span><br></pre></td></tr></table></figure></div>
+
+</li>
+<li><p>在项目根目录下创建一个名为 gulpfile.js 的文件</p>
+<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> path = <span class="built_in">require</span>(<span class="string">&#x27;path&#x27;</span>)</span><br><span class="line"><span class="keyword">var</span> gulp = <span class="built_in">require</span>(<span class="string">&#x27;gulp&#x27;</span>)</span><br><span class="line"><span class="keyword">var</span> cleanCSS = <span class="built_in">require</span>(<span class="string">&#x27;gulp-clean-css&#x27;</span>)</span><br><span class="line"><span class="keyword">var</span> cssWrap = <span class="built_in">require</span>(<span class="string">&#x27;gulp-css-wrap&#x27;</span>)</span><br><span class="line">gulp.<span class="title function_">task</span>(<span class="string">&#x27;css-wrap&#x27;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> gulp.<span class="title function_">src</span>(path.<span class="title function_">resolve</span>(<span class="string">&#x27;./theme/index.css&#x27;</span>))</span><br><span class="line">  <span class="comment">/* 找需要添加命名空间的css文件，支持正则表达式 */</span></span><br><span class="line">  .<span class="title function_">pipe</span>(<span class="title function_">cssWrap</span>(&#123;</span><br><span class="line">      <span class="attr">selector</span>: <span class="string">&#x27;.custom-dark&#x27;</span> <span class="comment">/* 添加的命名空间 */</span></span><br><span class="line">  &#125;))</span><br><span class="line">  .<span class="title function_">pipe</span>(<span class="title function_">cleanCSS</span>())</span><br><span class="line">  .<span class="title function_">pipe</span>(gulp.<span class="title function_">dest</span>(<span class="string">&#x27;src/theme&#x27;</span>)) <span class="comment">/* 存放的目录 */</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>将生成在<code>scr/theme</code>下的css和字体文件复制到所需项目中</p>
+</li>
+</ol>
+<h4 id="项目中动态切换主题"><a href="#项目中动态切换主题" class="headerlink" title="项目中动态切换主题"></a>项目中动态切换主题</h4><ol>
+<li>在<code>main.js</code>中引入全部所需的css主题样式</li>
+</ol>
+<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">&#x27;element-ui/lib/theme-chalk/index.css&#x27;</span>; <span class="comment">// 基础css不能少，否则一些组件会丢失样式</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;../src/styles/theme/dark.css&quot;</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;../src/styles/theme/light.css&quot;</span>;</span><br></pre></td></tr></table></figure></div>
+
+<ol start="2">
+<li>设置<code>App.vue</code>入口页面中<code>#app</code>的元素的类名为默认主题的名称</li>
+</ol>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div id=&quot;app&quot; class=&quot;custom-dark&quot;&gt;</span><br><span class="line">    &lt;router-view&gt;&lt;/router-view&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br></pre></td></tr></table></figure></div>
+
+<ol start="3">
+<li>修改<code>#app</code>元素的类目切换主题</li>
+</ol>
+<div class="code-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;app&quot;</span>).<span class="title function_">setAttribute</span>(<span class="string">&quot;class&quot;</span>, <span class="string">&#x27;custom-&#x27;</span> + <span class="variable language_">this</span>.<span class="property">theme</span>);</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>开发</category>
+      </categories>
+      <tags>
+        <tag>elementui</tag>
       </tags>
   </entry>
   <entry>

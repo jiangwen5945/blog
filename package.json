@@ -28,6 +28,7 @@
   },
   "scripts": {
     "dev": "hexo clean && hexo server -p $PORT",
-    "build": "hexo clean && hexo generate"
+    "build": "hexo clean && hexo generate",
+    "deploy": "hexo clean && hexo generate && hexo deploy"
   }
 }

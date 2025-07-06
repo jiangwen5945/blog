@@ -20,7 +20,7 @@ comment: false
 ## 个人作品
 - 瞎猫商城 <a href="https://xiamao-mall.jiangwen.site"><i class='fa-regular fa-arrow-up-right-from-square fa-sm'></i></a>
 - 瞎猫后台管理系统 <a href="https://admin.jiangwen.site"><i class='fa-regular fa-arrow-up-right-from-square fa-sm'></i></a>
-- 博客网站(文以载道)<a href="https://blog.jiangwen.site"><i class='fa-regular fa-arrow-up-right-from-square fa-sm'></i></a>
+- 博客网站(文以载道)<a href="https://jiangwen.site/blog"><i class='fa-regular fa-arrow-up-right-from-square fa-sm'></i></a>
 - 数据可视化面板 <a href="https://panel.jiangwen.site"><i class='fa-regular fa-arrow-up-right-from-square fa-sm'></i></a>
 - 瞎猫寻音(小程序)
 - 瞎猫觅书(小程序)
